@@ -9,6 +9,7 @@ which ruby
 ```
 
 ## Add JRUBY_LIB path to your bash environment
+```
 export RUBY_BIN_FILE=`which ruby`
 echo $RUBY_BIN_FILE
 export RUBY_BIN_PATH=`dirname $RUBY_BIN_FILE`
